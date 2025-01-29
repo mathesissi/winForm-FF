@@ -94,17 +94,23 @@ namespace LojaDeFerramentas
            abas.SelectedTab = pagCarrinho;
            string data_source = "datasource=localhost;username=root;password=;database=lojadeferramentas";
            string query = @"
-                    SELECT 
-                    f.nome AS 'Produto', 
-                    f.marca AS 'Marca', 
-                    f.modelo AS 'Modelo',
-                    ic.quantidade AS 'Quantidade', 
-                    ic.preco AS 'Valor Unitário', 
-                    (ic.quantidade * ic.preco) AS 'Total Item'
-                FROM itemcarrinho ic
-                JOIN ferramenta f ON ic.idProduto = f.id
-                JOIN carrinho c ON ic.idCarrinho = c.id
-                WHERE c.idCliente = @cpf";
+                    SELECT                         
+                        f.nome AS ferramenta_nome,
+                        f.marca AS ferramenta_marca,
+                        f.modelo AS ferramenta_modelo,
+                        i.quantidade,
+                        i.preco AS preco_unitario,
+                        (i.quantidade * i.preco) AS preco_total,
+                        c.valorTotal AS valor_total_carrinho
+                    FROM 
+                        itemcarrinho i
+                    INNER JOIN 
+                        ferramenta f ON i.idProduto = f.id
+                    INNER JOIN 
+                        carrinho c ON i.idCarrinho = c.idCliente
+                    WHERE 
+                        c.idCliente = @cpf;
+";
 
             try
             {
