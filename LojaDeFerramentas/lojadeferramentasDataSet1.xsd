@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="lojadeferramentasDataSet1" targetNamespace="http://tempuri.org/lojadeferramentasDataSet1.xsd" xmlns:mstns="http://tempuri.org/lojadeferramentasDataSet1.xsd" xmlns="http://tempuri.org/lojadeferramentasDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="lojadeferramentasConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="lojadeferramentasConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.LojaDeFerramentas.Properties.Settings.GlobalReference.Default.lojadeferramentasConnectionString1" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="carrinhoTableAdapter" GeneratorDataComponentClassName="carrinhoTableAdapter" Name="carrinho" UserDataComponentName="carrinhoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.carrinho" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `idCliente`, `valorTotal` FROM `carrinho`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="categoriaTableAdapter" GeneratorDataComponentClassName="categoriaTableAdapter" Name="categoria" UserDataComponentName="categoriaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.categoria" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `nome` FROM `categoria`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clienteTableAdapter" GeneratorDataComponentClassName="clienteTableAdapter" Name="cliente" UserDataComponentName="clienteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.cliente" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `cpf`, `nome`, `sobrenome`, `email`, `senha` FROM `cliente`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="endereçoTableAdapter" GeneratorDataComponentClassName="endereçoTableAdapter" Name="endereço" UserDataComponentName="endereçoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.endereço" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `rua`, `bairro`, `cidade`, `cep`, `numero` FROM `endereço`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ferramentaTableAdapter" GeneratorDataComponentClassName="ferramentaTableAdapter" Name="ferramenta" UserDataComponentName="ferramentaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.ferramenta" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `nome`, `marca`, `modelo`, `idCategoria`, `valor` FROM `ferramenta`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="itemcarrinhoTableAdapter" GeneratorDataComponentClassName="itemcarrinhoTableAdapter" Name="itemcarrinho" UserDataComponentName="itemcarrinhoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.itemcarrinho" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `idCarrinho`, `idProduto`, `quantidade`, `preco` FROM `itemcarrinho`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pedidoTableAdapter" GeneratorDataComponentClassName="pedidoTableAdapter" Name="pedido" UserDataComponentName="pedidoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lojadeferramentasConnectionString1 (Settings)" DbObjectName="lojadeferramentas.pedido" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `idCliente`, `valorTotal`, `dataPedido`, `status` FROM `pedido`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="lojadeferramentasDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="lojadeferramentasDataSet1" msprop:Generator_UserDSName="lojadeferramentasDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="carrinho" msprop:Generator_TableClassName="carrinhoDataTable" msprop:Generator_TableVarName="tablecarrinho" msprop:Generator_TablePropName="carrinho" msprop:Generator_RowDeletingName="carrinhoRowDeleting" msprop:Generator_RowChangingName="carrinhoRowChanging" msprop:Generator_RowEvHandlerName="carrinhoRowChangeEventHandler" msprop:Generator_RowDeletedName="carrinhoRowDeleted" msprop:Generator_UserTableName="carrinho" msprop:Generator_RowChangedName="carrinhoRowChanged" msprop:Generator_RowEvArgName="carrinhoRowChangeEvent" msprop:Generator_RowClassName="carrinhoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="categoria" msprop:Generator_TableClassName="categoriaDataTable" msprop:Generator_TableVarName="tablecategoria" msprop:Generator_TablePropName="categoria" msprop:Generator_RowDeletingName="categoriaRowDeleting" msprop:Generator_RowChangingName="categoriaRowChanging" msprop:Generator_RowEvHandlerName="categoriaRowChangeEventHandler" msprop:Generator_RowDeletedName="categoriaRowDeleted" msprop:Generator_UserTableName="categoria" msprop:Generator_RowChangedName="categoriaRowChanged" msprop:Generator_RowEvArgName="categoriaRowChangeEvent" msprop:Generator_RowClassName="categoriaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cliente" msprop:Generator_TableClassName="clienteDataTable" msprop:Generator_TableVarName="tablecliente" msprop:Generator_TablePropName="cliente" msprop:Generator_RowDeletingName="clienteRowDeleting" msprop:Generator_RowChangingName="clienteRowChanging" msprop:Generator_RowEvHandlerName="clienteRowChangeEventHandler" msprop:Generator_RowDeletedName="clienteRowDeleted" msprop:Generator_UserTableName="cliente" msprop:Generator_RowChangedName="clienteRowChanged" msprop:Generator_RowEvArgName="clienteRowChangeEvent" msprop:Generator_RowClassName="clienteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="endereço" msprop:Generator_TableClassName="endereçoDataTable" msprop:Generator_TableVarName="tableendereço" msprop:Generator_TablePropName="endereço" msprop:Generator_RowDeletingName="endereçoRowDeleting" msprop:Generator_RowChangingName="endereçoRowChanging" msprop:Generator_RowEvHandlerName="endereçoRowChangeEventHandler" msprop:Generator_RowDeletedName="endereçoRowDeleted" msprop:Generator_UserTableName="endereço" msprop:Generator_RowChangedName="endereçoRowChanged" msprop:Generator_RowEvArgName="endereçoRowChangeEvent" msprop:Generator_RowClassName="endereçoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ferramenta" msprop:Generator_TableClassName="ferramentaDataTable" msprop:Generator_TableVarName="tableferramenta" msprop:Generator_TablePropName="ferramenta" msprop:Generator_RowDeletingName="ferramentaRowDeleting" msprop:Generator_RowChangingName="ferramentaRowChanging" msprop:Generator_RowEvHandlerName="ferramentaRowChangeEventHandler" msprop:Generator_RowDeletedName="ferramentaRowDeleted" msprop:Generator_UserTableName="ferramenta" msprop:Generator_RowChangedName="ferramentaRowChanged" msprop:Generator_RowEvArgName="ferramentaRowChangeEvent" msprop:Generator_RowClassName="ferramentaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="itemcarrinho" msprop:Generator_TableClassName="itemcarrinhoDataTable" msprop:Generator_TableVarName="tableitemcarrinho" msprop:Generator_TablePropName="itemcarrinho" msprop:Generator_RowDeletingName="itemcarrinhoRowDeleting" msprop:Generator_RowChangingName="itemcarrinhoRowChanging" msprop:Generator_RowEvHandlerName="itemcarrinhoRowChangeEventHandler" msprop:Generator_RowDeletedName="itemcarrinhoRowDeleted" msprop:Generator_UserTableName="itemcarrinho" msprop:Generator_RowChangedName="itemcarrinhoRowChanged" msprop:Generator_RowEvArgName="itemcarrinhoRowChangeEvent" msprop:Generator_RowClassName="itemcarrinhoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pedido" msprop:Generator_TableClassName="pedidoDataTable" msprop:Generator_TableVarName="tablepedido" msprop:Generator_TablePropName="pedido" msprop:Generator_RowDeletingName="pedidoRowDeleting" msprop:Generator_RowChangingName="pedidoRowChanging" msprop:Generator_RowEvHandlerName="pedidoRowChangeEventHandler" msprop:Generator_RowDeletedName="pedidoRowDeleted" msprop:Generator_UserTableName="pedido" msprop:Generator_RowChangedName="pedidoRowChanged" msprop:Generator_RowEvArgName="pedidoRowChangeEvent" msprop:Generator_RowClassName="pedidoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
