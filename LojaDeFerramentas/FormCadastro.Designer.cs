@@ -231,7 +231,7 @@ namespace LojaDeFerramentas
             // 
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(91, 327);
+            this.btnLogin.Location = new System.Drawing.Point(91, 320);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(108, 30);
             this.btnLogin.TabIndex = 18;
