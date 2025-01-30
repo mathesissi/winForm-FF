@@ -130,9 +130,6 @@ namespace LojaDeFerramentas
             this.btnProdutos = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label30 = new System.Windows.Forms.Label();
             this.barraLateral.SuspendLayout();
             this.docker.SuspendLayout();
             this.pagProdutos.SuspendLayout();
@@ -184,9 +181,9 @@ namespace LojaDeFerramentas
             this.barraLateral.Controls.Add(this.btnLogout);
             this.barraLateral.Controls.Add(this.btnProdutos);
             this.barraLateral.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barraLateral.Location = new System.Drawing.Point(0, 46);
+            this.barraLateral.Location = new System.Drawing.Point(0, 0);
             this.barraLateral.Name = "barraLateral";
-            this.barraLateral.Size = new System.Drawing.Size(259, 717);
+            this.barraLateral.Size = new System.Drawing.Size(259, 763);
             this.barraLateral.TabIndex = 4;
             this.barraLateral.Paint += new System.Windows.Forms.PaintEventHandler(this.barraLateral_Paint);
             // 
@@ -205,9 +202,9 @@ namespace LojaDeFerramentas
             // 
             this.docker.Controls.Add(this.btnLateral);
             this.docker.Dock = System.Windows.Forms.DockStyle.Top;
-            this.docker.Location = new System.Drawing.Point(0, 0);
+            this.docker.Location = new System.Drawing.Point(259, 0);
             this.docker.Name = "docker";
-            this.docker.Size = new System.Drawing.Size(1350, 46);
+            this.docker.Size = new System.Drawing.Size(1091, 46);
             this.docker.TabIndex = 5;
             this.docker.Paint += new System.Windows.Forms.PaintEventHandler(this.docker_Paint);
             // 
@@ -880,9 +877,6 @@ namespace LojaDeFerramentas
             // pagCarrinho
             // 
             this.pagCarrinho.BackColor = System.Drawing.Color.White;
-            this.pagCarrinho.Controls.Add(this.label30);
-            this.pagCarrinho.Controls.Add(this.textBox1);
-            this.pagCarrinho.Controls.Add(this.button4);
             this.pagCarrinho.Controls.Add(this.label29);
             this.pagCarrinho.Controls.Add(this.dataGridView1);
             this.pagCarrinho.Location = new System.Drawing.Point(4, 22);
@@ -1419,48 +1413,14 @@ namespace LojaDeFerramentas
             this.label29.TabIndex = 52;
             this.label29.Text = "Meu Carrinho";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(67, 337);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(237, 30);
-            this.textBox1.TabIndex = 71;
-            this.textBox1.UseSystemPasswordChar = true;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.SpringGreen;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::LojaDeFerramentas.Properties.Resources.icons8_lixeira_32;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(67, 388);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(116, 48);
-            this.button4.TabIndex = 70;
-            this.button4.Text = "deletar";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(61, 284);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(310, 33);
-            this.label30.TabIndex = 72;
-            this.label30.Text = "Insira o id do produto";
-            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 763);
+            this.Controls.Add(this.docker);
             this.Controls.Add(this.abas);
             this.Controls.Add(this.barraLateral);
-            this.Controls.Add(this.docker);
             this.DoubleBuffered = true;
             this.Name = "FormHome";
             this.Text = "FormHome";
@@ -1623,9 +1583,6 @@ namespace LojaDeFerramentas
         private System.Windows.Forms.TabControl abas;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
     }
 }

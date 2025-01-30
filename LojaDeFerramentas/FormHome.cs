@@ -986,21 +986,13 @@ namespace LojaDeFerramentas
                 }
 
 
-                string atualizarValorTotal = @"
-            UPDATE carrinho 
-            SET valorTotal = (
-                SELECT SUM(quantidade * preco) 
-                FROM itemcarrinho 
-                WHERE idCarrinho = @cpf
-            ) 
-            WHERE idCliente = @cpf";
+                string atualizarValorTotal = @"UPDATE carrinho SET valorTotal = (SELECT SUM(quantidade * preco) FROM itemcarrinho WHERE idCarrinho = @cpf) WHERE idCliente = @cpf";
 
                 using (MySqlCommand cmd = new MySqlCommand(atualizarValorTotal, conexao))
                 {
                     cmd.Parameters.AddWithValue("@cpf", _cpfCliente);
                     cmd.ExecuteNonQuery();
                 }
-
                 MessageBox.Show("Produto adicionado ao carrinho!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
@@ -1071,6 +1063,16 @@ namespace LojaDeFerramentas
 
                 MessageBox.Show("Produto adicionado ao carrinho!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
  }

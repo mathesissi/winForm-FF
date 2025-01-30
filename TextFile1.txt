@@ -1,0 +1,64 @@
+create schema lojadeferramentas;
+use lojadeferramentas;
+create table cliente(
+	cpf VARCHAR(11) primary key,
+   nome VARCHAR(200) NOT NULL,
+  sobrenome VARCHAR(200) NOT NULL,
+  email VARCHAR(200) NOT NULL,
+  senha VARCHAR(200) NOT NULL
+);
+CREATE TABLE endereco (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  rua VARCHAR(255) NOT NULL,
+  bairro VARCHAR(255) NOT NULL,
+  cidade VARCHAR(255) NOT NULL,
+  cep VARCHAR(20) NOT NULL,
+  numero INT NOT NULL,
+  cpfCliente VARCHAR(11) NOT NULL,
+  FOREIGN KEY (cpfCliente) REFERENCES cliente(cpf)
+);
+
+
+CREATE TABLE ferramenta (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(200) NOT NULL,
+  marca VARCHAR(200) NOT NULL,
+  modelo VARCHAR(100) NOT NULL,
+  valor DECIMAL(10,2) NOT NULL
+);
+
+INSERT INTO ferramenta (nome, marca, modelo, valor) VALUES 
+('Jogo de Chaves de Fenda', 'Tramontina', '5 Peças', 59.90),
+('Lixadeira Orbital', 'Black+Decker', 'KA400', 320.90),
+('Martelo de unha', 'Hilti', 'TE 2-A22', 42.00),
+('Esmerilhadeira Angulsr', 'Bosch', 'GWS 850', 450.00),
+('Paquímetro', 'Bosch', 'GSR 120-LI', 149.90),
+('Estilete Retrátil', 'Stanley', 'SBI201D2K', 15.00),
+('Serra Manual', 'Skil', '4380', 69.90),
+('Parafusadeira', 'Makita', 'DF001DW', 229.90),
+('Alicate Universal', 'Dewalt', 'DWE575SB', 749.00);
+
+CREATE TABLE carrinho (
+  idCliente VARCHAR(11) PRIMARY KEY,
+  valorTotal DECIMAL(10,2),
+  FOREIGN KEY (idCliente) REFERENCES cliente(cpf)
+);
+
+
+
+CREATE TABLE itemcarrinho (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  idCarrinho VARCHAR(11) NOT NULL, 
+  idProduto INT NOT NULL,
+  quantidade INT NOT NULL,
+  preco DECIMAL(10,2) NOT NULL,
+  FOREIGN KEY (idCarrinho) REFERENCES carrinho(idCliente),
+  FOREIGN KEY (idProduto) REFERENCES ferramenta(id)
+);
+
+CREATE TABLE pedido (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  idCarrinho VARCHAR(11)  NOT NULL, 
+  valorTotal DECIMAL(10,2) ,
+  FOREIGN KEY (idCarrinho) REFERENCES carrinho(idCliente)
+);
