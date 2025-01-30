@@ -76,11 +76,7 @@ namespace LojaDeFerramentas
 
         private void txtPesquisa_TextChanged(object sender, EventArgs e)
         {
-            foreach (var item in pnl.Controls)
-            {
-                var wdg = (Widget)item;
-                wdg.Visible = wdg.tituloC.Text.ToLower().ToLower().Contains(txtPesquisa.Text.Trim().ToLower());
-            }
+           
         }
 
         private void btnProdutos_Click(object sender, EventArgs e)
@@ -94,7 +90,8 @@ namespace LojaDeFerramentas
            abas.SelectedTab = pagCarrinho;
            string data_source = "datasource=localhost;username=root;password=;database=lojadeferramentas";
            string query = @"
-                    SELECT                         
+                    SELECT
+                        i.id AS item_id,
                         f.nome AS ferramenta_nome,
                         f.marca AS ferramenta_marca,
                         f.modelo AS ferramenta_modelo,
@@ -241,31 +238,57 @@ namespace LojaDeFerramentas
         private void btnDelete_Click(object sender, EventArgs e)
         {
             string data_source = "datasource=localhost;username=root;password=;database=lojadeferramentas";
-            string query = "DELETE FROM Cliente WHERE cpf = @cpf";
+            string deleteCliente = "DELETE FROM Cliente WHERE cpf = @cpf";
+            string deleteCarrinho = "DELETE FROM Carrinho WHERE idCliente = @cpf";
+            string deleteItemCarrinho = "DELETE FROM itemCarrinho WHERE idCarrinho = @cpf";
+            string deleteEndereco = "DELETE FROM Endereco WHERE cpfCliente = @cpf";
+
             try
             {
                 using (MySqlConnection conexao = new MySqlConnection(data_source))
                 {
                     conexao.Open();
-                    DialogResult resultado = MessageBox.Show("Você realmente deseja deletar sua conta? Essa operação é irreversivel", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                    if(resultado == DialogResult.Yes)
+                    DialogResult resultado = MessageBox.Show("Você realmente deseja deletar sua conta? Essa operação é irreversivel","Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                    if (resultado == DialogResult.Yes)
                     {
-                        using (MySqlCommand comando = new MySqlCommand(query, conexao))
+                        using (MySqlCommand comando = new MySqlCommand(deleteItemCarrinho, conexao))
                         {
                             comando.Parameters.AddWithValue("@cpf", _cpfCliente);
                             comando.ExecuteNonQuery();
-                            MessageBox.Show("Conta deletada com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            var login = new FormLogin();
-                            login.Show();
-                            this.Hide();
                         }
-                    }                    
+
+                        using (MySqlCommand comando = new MySqlCommand(deleteCarrinho, conexao))
+                        {
+                            comando.Parameters.AddWithValue("@cpf", _cpfCliente);
+                            comando.ExecuteNonQuery();
+                        }
+
+                        using (MySqlCommand comando = new MySqlCommand(deleteEndereco, conexao))
+                        {
+                            comando.Parameters.AddWithValue("@cpf", _cpfCliente);
+                            comando.ExecuteNonQuery();
+                        }
+
+                        using (MySqlCommand comando = new MySqlCommand(deleteCliente, conexao))
+                        {
+                            comando.Parameters.AddWithValue("@cpf", _cpfCliente);
+                            comando.ExecuteNonQuery();
+                        }
+
+                        MessageBox.Show("Conta deletada com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        var login = new FormLogin();
+                        login.Show();
+                        this.Hide();
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao salvar os dados: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro ao deletar conta: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

@@ -423,6 +423,7 @@
     <Content Include="icon\imgCard9.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\icons8-localização-32.png" />
     <None Include="Resources\icons8-ponta-do-lápis-32.png" />
     <None Include="Resources\icons8-lixeira-32.png" />
     <None Include="Resources\icons8-salvar-32.png" />

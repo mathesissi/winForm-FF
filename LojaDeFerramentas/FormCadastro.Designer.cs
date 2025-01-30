@@ -54,21 +54,22 @@ namespace LojaDeFerramentas
             // 
             // txtCpf
             // 
+            this.txtCpf.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCpf.Location = new System.Drawing.Point(153, 232);
             this.txtCpf.MaxLength = 11;
             this.txtCpf.Name = "txtCpf";
-            this.txtCpf.Size = new System.Drawing.Size(100, 20);
+            this.txtCpf.Size = new System.Drawing.Size(100, 26);
             this.txtCpf.TabIndex = 39;
             this.txtCpf.TextChanged += new System.EventHandler(this.txtCpf_TextChanged);
             this.txtCpf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCpf_KeyPress);
             // 
             // txtSenha
             // 
-            this.txtSenha.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.txtSenha.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenha.Location = new System.Drawing.Point(14, 291);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
-            this.txtSenha.Size = new System.Drawing.Size(100, 21);
+            this.txtSenha.Size = new System.Drawing.Size(100, 26);
             this.txtSenha.TabIndex = 38;
             this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
             // 
@@ -90,9 +91,10 @@ namespace LojaDeFerramentas
             // 
             // txtEmail
             // 
+            this.txtEmail.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(14, 232);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 20);
+            this.txtEmail.Size = new System.Drawing.Size(100, 26);
             this.txtEmail.TabIndex = 37;
             this.txtEmail.Tag = "col=email|obgt";
             this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
@@ -175,6 +177,7 @@ namespace LojaDeFerramentas
             // 
             // txtSobrenome
             // 
+            this.txtSobrenome.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSobrenome.Location = new System.Drawing.Point(14, 158);
             this.txtSobrenome.Multiline = true;
             this.txtSobrenome.Name = "txtSobrenome";
@@ -184,6 +187,7 @@ namespace LojaDeFerramentas
             // 
             // txtNome
             // 
+            this.txtNome.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(14, 96);
             this.txtNome.Multiline = true;
             this.txtNome.Name = "txtNome";

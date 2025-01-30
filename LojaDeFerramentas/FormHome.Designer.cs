@@ -30,79 +30,50 @@ namespace LojaDeFerramentas
         private void InitializeComponent()
         {
             this.barraLateral = new System.Windows.Forms.Panel();
-            this.btnEnd = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnCarrinho = new System.Windows.Forms.Button();
-            this.btnConta = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.btnProdutos = new System.Windows.Forms.Button();
             this.docker = new System.Windows.Forms.Panel();
-            this.txtPesquisa = new System.Windows.Forms.TextBox();
-            this.btnLateral = new System.Windows.Forms.PictureBox();
             this.pagProdutos = new System.Windows.Forms.TabPage();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.btncarrinho9 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.btncarrinho6 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.btncarrinho3 = new System.Windows.Forms.Button();
             this.n = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.btncarrinho8 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.btncarrinho7 = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.btncarrinho5 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.btncarrinho2 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btncarrinho4 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btncarrinho1 = new System.Windows.Forms.Button();
             this.precoC = new System.Windows.Forms.Label();
             this.tituloC = new System.Windows.Forms.Label();
-            this.imgC = new System.Windows.Forms.PictureBox();
             this.pagEnd = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtCEP = new System.Windows.Forms.TextBox();
             this.txtBairro = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.txtRua = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.txtNum = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -110,7 +81,6 @@ namespace LojaDeFerramentas
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pagConta = new System.Windows.Forms.TabPage();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.txtCpf = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtSobrenome = new System.Windows.Forms.TextBox();
@@ -121,51 +91,86 @@ namespace LojaDeFerramentas
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
             this.pagCarrinho = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pagProdutostest = new System.Windows.Forms.TabPage();
             this.pnl = new System.Windows.Forms.FlowLayoutPanel();
             this.abas = new System.Windows.Forms.TabControl();
+            this.label22 = new System.Windows.Forms.Label();
+            this.btnLateral = new System.Windows.Forms.PictureBox();
+            this.btncarrinho9 = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho6 = new System.Windows.Forms.Button();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho3 = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho8 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho7 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho5 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho2 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho4 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btncarrinho1 = new System.Windows.Forms.Button();
+            this.imgC = new System.Windows.Forms.PictureBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnEnd = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnCarrinho = new System.Windows.Forms.Button();
+            this.btnConta = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnProdutos = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label30 = new System.Windows.Forms.Label();
             this.barraLateral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.docker.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnLateral)).BeginInit();
             this.pagProdutos.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgC)).BeginInit();
             this.pagEnd.SuspendLayout();
             this.pagConta.SuspendLayout();
             this.pagCarrinho.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.pagProdutostest.SuspendLayout();
             this.abas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnLateral)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // barraLateral
@@ -179,28 +184,11 @@ namespace LojaDeFerramentas
             this.barraLateral.Controls.Add(this.btnLogout);
             this.barraLateral.Controls.Add(this.btnProdutos);
             this.barraLateral.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barraLateral.Location = new System.Drawing.Point(0, 0);
+            this.barraLateral.Location = new System.Drawing.Point(0, 46);
             this.barraLateral.Name = "barraLateral";
-            this.barraLateral.Size = new System.Drawing.Size(259, 763);
+            this.barraLateral.Size = new System.Drawing.Size(259, 717);
             this.barraLateral.TabIndex = 4;
             this.barraLateral.Paint += new System.Windows.Forms.PaintEventHandler(this.barraLateral_Paint);
-            // 
-            // btnEnd
-            // 
-            this.btnEnd.BackColor = System.Drawing.Color.Transparent;
-            this.btnEnd.FlatAppearance.BorderSize = 0;
-            this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEnd.Image = global::LojaDeFerramentas.Properties.Resources.icons8_usuário_32;
-            this.btnEnd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEnd.Location = new System.Drawing.Point(2, 319);
-            this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Size = new System.Drawing.Size(259, 43);
-            this.btnEnd.TabIndex = 11;
-            this.btnEnd.Text = "Endereço";
-            this.btnEnd.UseVisualStyleBackColor = false;
-            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
             // label2
             // 
@@ -213,114 +201,15 @@ namespace LojaDeFerramentas
             this.label2.TabIndex = 9;
             this.label2.Text = "Ferragens \r\nFerreira";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::LojaDeFerramentas.Properties.Resources.Component_1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 7);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(124, 84);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btnCarrinho
-            // 
-            this.btnCarrinho.BackColor = System.Drawing.Color.Transparent;
-            this.btnCarrinho.FlatAppearance.BorderSize = 0;
-            this.btnCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCarrinho.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCarrinho.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCarrinho.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btnCarrinho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCarrinho.Location = new System.Drawing.Point(3, 250);
-            this.btnCarrinho.Name = "btnCarrinho";
-            this.btnCarrinho.Size = new System.Drawing.Size(256, 52);
-            this.btnCarrinho.TabIndex = 7;
-            this.btnCarrinho.Text = "Carrinho";
-            this.btnCarrinho.UseVisualStyleBackColor = false;
-            this.btnCarrinho.Click += new System.EventHandler(this.btnCarrinho_Click);
-            // 
-            // btnConta
-            // 
-            this.btnConta.BackColor = System.Drawing.Color.Transparent;
-            this.btnConta.FlatAppearance.BorderSize = 0;
-            this.btnConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConta.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnConta.Image = global::LojaDeFerramentas.Properties.Resources.icons8_usuário_32;
-            this.btnConta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConta.Location = new System.Drawing.Point(3, 377);
-            this.btnConta.Name = "btnConta";
-            this.btnConta.Size = new System.Drawing.Size(259, 43);
-            this.btnConta.TabIndex = 5;
-            this.btnConta.Text = "Conta";
-            this.btnConta.UseVisualStyleBackColor = false;
-            this.btnConta.Click += new System.EventHandler(this.btnConta_Click);
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.Transparent;
-            this.btnLogout.Image = global::LojaDeFerramentas.Properties.Resources.icons8_sair_32;
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(3, 448);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(256, 43);
-            this.btnLogout.TabIndex = 3;
-            this.btnLogout.Text = "Log out";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // btnProdutos
-            // 
-            this.btnProdutos.BackColor = System.Drawing.Color.Transparent;
-            this.btnProdutos.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnProdutos.FlatAppearance.BorderSize = 0;
-            this.btnProdutos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProdutos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProdutos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnProdutos.Image = global::LojaDeFerramentas.Properties.Resources.icons8_manutenção_321;
-            this.btnProdutos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProdutos.Location = new System.Drawing.Point(3, 174);
-            this.btnProdutos.Name = "btnProdutos";
-            this.btnProdutos.Size = new System.Drawing.Size(256, 50);
-            this.btnProdutos.TabIndex = 8;
-            this.btnProdutos.Text = "Produtos";
-            this.btnProdutos.UseVisualStyleBackColor = false;
-            this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
-            // 
             // docker
             // 
-            this.docker.Controls.Add(this.txtPesquisa);
             this.docker.Controls.Add(this.btnLateral);
             this.docker.Dock = System.Windows.Forms.DockStyle.Top;
-            this.docker.Location = new System.Drawing.Point(259, 0);
+            this.docker.Location = new System.Drawing.Point(0, 0);
             this.docker.Name = "docker";
-            this.docker.Size = new System.Drawing.Size(1091, 46);
+            this.docker.Size = new System.Drawing.Size(1350, 46);
             this.docker.TabIndex = 5;
             this.docker.Paint += new System.Windows.Forms.PaintEventHandler(this.docker_Paint);
-            // 
-            // txtPesquisa
-            // 
-            this.txtPesquisa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPesquisa.Location = new System.Drawing.Point(767, 5);
-            this.txtPesquisa.Multiline = true;
-            this.txtPesquisa.Name = "txtPesquisa";
-            this.txtPesquisa.Size = new System.Drawing.Size(298, 38);
-            this.txtPesquisa.TabIndex = 7;
-            this.txtPesquisa.TextChanged += new System.EventHandler(this.txtPesquisa_TextChanged);
-            // 
-            // btnLateral
-            // 
-            this.btnLateral.Image = global::LojaDeFerramentas.Properties.Resources.icons8_cardápio_32;
-            this.btnLateral.Location = new System.Drawing.Point(6, 9);
-            this.btnLateral.Name = "btnLateral";
-            this.btnLateral.Size = new System.Drawing.Size(32, 32);
-            this.btnLateral.TabIndex = 6;
-            this.btnLateral.TabStop = false;
             // 
             // pagProdutos
             // 
@@ -346,7 +235,7 @@ namespace LojaDeFerramentas
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel17.Controls.Add(this.panel18);
-            this.panel17.Location = new System.Drawing.Point(716, 376);
+            this.panel17.Location = new System.Drawing.Point(716, 466);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(325, 147);
             this.panel17.TabIndex = 8;
@@ -364,24 +253,6 @@ namespace LojaDeFerramentas
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(319, 141);
             this.panel18.TabIndex = 2;
-            // 
-            // btncarrinho9
-            // 
-            this.btncarrinho9.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho9.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho9.FlatAppearance.BorderSize = 0;
-            this.btncarrinho9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho9.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho9.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho9.Name = "btncarrinho9";
-            this.btncarrinho9.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho9.TabIndex = 9;
-            this.btncarrinho9.UseVisualStyleBackColor = false;
-            this.btncarrinho9.Click += new System.EventHandler(this.btncarrinho9_Click);
             // 
             // label26
             // 
@@ -403,21 +274,11 @@ namespace LojaDeFerramentas
             this.label27.TabIndex = 1;
             this.label27.Text = "Parafusadeira";
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_9;
-            this.pictureBox9.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
-            // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel15.Controls.Add(this.panel16);
-            this.panel15.Location = new System.Drawing.Point(713, 205);
+            this.panel15.Location = new System.Drawing.Point(713, 295);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(325, 147);
             this.panel15.TabIndex = 9;
@@ -435,24 +296,6 @@ namespace LojaDeFerramentas
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(319, 141);
             this.panel16.TabIndex = 2;
-            // 
-            // btncarrinho6
-            // 
-            this.btncarrinho6.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho6.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho6.FlatAppearance.BorderSize = 0;
-            this.btncarrinho6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho6.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho6.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho6.Name = "btncarrinho6";
-            this.btncarrinho6.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho6.TabIndex = 9;
-            this.btncarrinho6.UseVisualStyleBackColor = false;
-            this.btncarrinho6.Click += new System.EventHandler(this.btncarrinho6_Click);
             // 
             // label24
             // 
@@ -474,21 +317,11 @@ namespace LojaDeFerramentas
             this.label25.TabIndex = 1;
             this.label25.Text = "Estilete retrátil";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_8;
-            this.pictureBox8.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel13.Controls.Add(this.panel14);
-            this.panel13.Location = new System.Drawing.Point(710, 37);
+            this.panel13.Location = new System.Drawing.Point(710, 127);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(325, 147);
             this.panel13.TabIndex = 8;
@@ -506,24 +339,6 @@ namespace LojaDeFerramentas
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(319, 141);
             this.panel14.TabIndex = 2;
-            // 
-            // btncarrinho3
-            // 
-            this.btncarrinho3.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho3.FlatAppearance.BorderSize = 0;
-            this.btncarrinho3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho3.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho3.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho3.Name = "btncarrinho3";
-            this.btncarrinho3.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho3.TabIndex = 9;
-            this.btncarrinho3.UseVisualStyleBackColor = false;
-            this.btncarrinho3.Click += new System.EventHandler(this.btncarrinho3_Click);
             // 
             // n
             // 
@@ -545,21 +360,11 @@ namespace LojaDeFerramentas
             this.label23.TabIndex = 1;
             this.label23.Text = "Martelo de unha";
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_7;
-            this.pictureBox7.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel11.Controls.Add(this.panel12);
-            this.panel11.Location = new System.Drawing.Point(362, 376);
+            this.panel11.Location = new System.Drawing.Point(362, 466);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(325, 147);
             this.panel11.TabIndex = 7;
@@ -578,24 +383,6 @@ namespace LojaDeFerramentas
             this.panel12.Size = new System.Drawing.Size(319, 141);
             this.panel12.TabIndex = 2;
             this.panel12.Paint += new System.Windows.Forms.PaintEventHandler(this.panel12_Paint);
-            // 
-            // btncarrinho8
-            // 
-            this.btncarrinho8.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho8.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho8.FlatAppearance.BorderSize = 0;
-            this.btncarrinho8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho8.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho8.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho8.Name = "btncarrinho8";
-            this.btncarrinho8.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho8.TabIndex = 9;
-            this.btncarrinho8.UseVisualStyleBackColor = false;
-            this.btncarrinho8.Click += new System.EventHandler(this.btncarrinho8_Click);
             // 
             // label20
             // 
@@ -617,21 +404,11 @@ namespace LojaDeFerramentas
             this.label21.TabIndex = 1;
             this.label21.Text = "Alicate universal";
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_6;
-            this.pictureBox6.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel9.Controls.Add(this.panel10);
-            this.panel9.Location = new System.Drawing.Point(17, 376);
+            this.panel9.Location = new System.Drawing.Point(17, 466);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(325, 147);
             this.panel9.TabIndex = 6;
@@ -649,24 +426,6 @@ namespace LojaDeFerramentas
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(319, 141);
             this.panel10.TabIndex = 2;
-            // 
-            // btncarrinho7
-            // 
-            this.btncarrinho7.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho7.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho7.FlatAppearance.BorderSize = 0;
-            this.btncarrinho7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho7.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho7.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho7.Name = "btncarrinho7";
-            this.btncarrinho7.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho7.TabIndex = 9;
-            this.btncarrinho7.UseVisualStyleBackColor = false;
-            this.btncarrinho7.Click += new System.EventHandler(this.btncarrinho7_Click);
             // 
             // label18
             // 
@@ -688,21 +447,11 @@ namespace LojaDeFerramentas
             this.label19.TabIndex = 1;
             this.label19.Text = "Serra manual";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_5;
-            this.pictureBox5.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(362, 205);
+            this.panel7.Location = new System.Drawing.Point(362, 295);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(325, 147);
             this.panel7.TabIndex = 5;
@@ -720,24 +469,6 @@ namespace LojaDeFerramentas
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(319, 141);
             this.panel8.TabIndex = 2;
-            // 
-            // btncarrinho5
-            // 
-            this.btncarrinho5.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho5.FlatAppearance.BorderSize = 0;
-            this.btncarrinho5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho5.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho5.Location = new System.Drawing.Point(272, 95);
-            this.btncarrinho5.Name = "btncarrinho5";
-            this.btncarrinho5.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho5.TabIndex = 9;
-            this.btncarrinho5.UseVisualStyleBackColor = false;
-            this.btncarrinho5.Click += new System.EventHandler(this.button7_Click);
             // 
             // label16
             // 
@@ -759,21 +490,11 @@ namespace LojaDeFerramentas
             this.label17.TabIndex = 1;
             this.label17.Text = "Paquímetro";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_4;
-            this.pictureBox4.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel5.Controls.Add(this.panel6);
-            this.panel5.Location = new System.Drawing.Point(362, 37);
+            this.panel5.Location = new System.Drawing.Point(362, 127);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(325, 147);
             this.panel5.TabIndex = 4;
@@ -791,24 +512,6 @@ namespace LojaDeFerramentas
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(319, 141);
             this.panel6.TabIndex = 2;
-            // 
-            // btncarrinho2
-            // 
-            this.btncarrinho2.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho2.FlatAppearance.BorderSize = 0;
-            this.btncarrinho2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho2.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho2.Location = new System.Drawing.Point(273, 95);
-            this.btncarrinho2.Name = "btncarrinho2";
-            this.btncarrinho2.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho2.TabIndex = 9;
-            this.btncarrinho2.UseVisualStyleBackColor = false;
-            this.btncarrinho2.Click += new System.EventHandler(this.button6_Click);
             // 
             // label14
             // 
@@ -831,21 +534,11 @@ namespace LojaDeFerramentas
             this.label15.TabIndex = 1;
             this.label15.Text = "Lixadeira orbital";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_3;
-            this.pictureBox3.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(17, 205);
+            this.panel3.Location = new System.Drawing.Point(17, 295);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(325, 147);
             this.panel3.TabIndex = 3;
@@ -863,24 +556,6 @@ namespace LojaDeFerramentas
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(319, 141);
             this.panel4.TabIndex = 2;
-            // 
-            // btncarrinho4
-            // 
-            this.btncarrinho4.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho4.FlatAppearance.BorderSize = 0;
-            this.btncarrinho4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho4.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho4.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho4.Name = "btncarrinho4";
-            this.btncarrinho4.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho4.TabIndex = 9;
-            this.btncarrinho4.UseVisualStyleBackColor = false;
-            this.btncarrinho4.Click += new System.EventHandler(this.btncarrinho4_Click);
             // 
             // label12
             // 
@@ -902,21 +577,11 @@ namespace LojaDeFerramentas
             this.label13.TabIndex = 1;
             this.label13.Text = "Esmerilhadeira \r\nangular";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_2;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 119);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(17, 37);
+            this.panel1.Location = new System.Drawing.Point(17, 127);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(325, 147);
             this.panel1.TabIndex = 1;
@@ -934,25 +599,6 @@ namespace LojaDeFerramentas
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(319, 141);
             this.panel2.TabIndex = 2;
-            // 
-            // btncarrinho1
-            // 
-            this.btncarrinho1.BackColor = System.Drawing.Color.Transparent;
-            this.btncarrinho1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncarrinho1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncarrinho1.FlatAppearance.BorderSize = 0;
-            this.btncarrinho1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncarrinho1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncarrinho1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btncarrinho1.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
-            this.btncarrinho1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncarrinho1.Location = new System.Drawing.Point(267, 95);
-            this.btncarrinho1.Name = "btncarrinho1";
-            this.btncarrinho1.Size = new System.Drawing.Size(51, 50);
-            this.btncarrinho1.TabIndex = 9;
-            this.btncarrinho1.Text = "42";
-            this.btncarrinho1.UseVisualStyleBackColor = false;
-            this.btncarrinho1.Click += new System.EventHandler(this.btncarrinho1_Click);
             // 
             // precoC
             // 
@@ -974,31 +620,22 @@ namespace LojaDeFerramentas
             this.tituloC.TabIndex = 1;
             this.tituloC.Text = "Jogo de chave\r\nde fenda";
             // 
-            // imgC
-            // 
-            this.imgC.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_1;
-            this.imgC.Location = new System.Drawing.Point(-1, 18);
-            this.imgC.Name = "imgC";
-            this.imgC.Size = new System.Drawing.Size(140, 119);
-            this.imgC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgC.TabIndex = 0;
-            this.imgC.TabStop = false;
-            // 
             // pagEnd
             // 
+            this.pagEnd.Controls.Add(this.label28);
             this.pagEnd.Controls.Add(this.button1);
             this.pagEnd.Controls.Add(this.txtCEP);
             this.pagEnd.Controls.Add(this.txtBairro);
             this.pagEnd.Controls.Add(this.txtCidade);
             this.pagEnd.Controls.Add(this.txtRua);
-            this.pagEnd.Controls.Add(this.button2);
-            this.pagEnd.Controls.Add(this.button3);
             this.pagEnd.Controls.Add(this.txtNum);
             this.pagEnd.Controls.Add(this.label11);
             this.pagEnd.Controls.Add(this.label10);
             this.pagEnd.Controls.Add(this.label5);
             this.pagEnd.Controls.Add(this.label8);
             this.pagEnd.Controls.Add(this.label9);
+            this.pagEnd.Controls.Add(this.button2);
+            this.pagEnd.Controls.Add(this.button3);
             this.pagEnd.Location = new System.Drawing.Point(4, 22);
             this.pagEnd.Name = "pagEnd";
             this.pagEnd.Padding = new System.Windows.Forms.Padding(3);
@@ -1007,26 +644,10 @@ namespace LojaDeFerramentas
             this.pagEnd.Text = "endereço";
             this.pagEnd.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Image = global::LojaDeFerramentas.Properties.Resources.icons8_lixeira_32;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(354, 318);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 48);
-            this.button1.TabIndex = 53;
-            this.button1.Text = "Deletar Endereço";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // txtCEP
             // 
             this.txtCEP.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCEP.Location = new System.Drawing.Point(332, 143);
+            this.txtCEP.Location = new System.Drawing.Point(332, 206);
             this.txtCEP.Multiline = true;
             this.txtCEP.Name = "txtCEP";
             this.txtCEP.Size = new System.Drawing.Size(239, 30);
@@ -1035,7 +656,7 @@ namespace LojaDeFerramentas
             // txtBairro
             // 
             this.txtBairro.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBairro.Location = new System.Drawing.Point(332, 58);
+            this.txtBairro.Location = new System.Drawing.Point(332, 121);
             this.txtBairro.Multiline = true;
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(239, 30);
@@ -1044,7 +665,7 @@ namespace LojaDeFerramentas
             // txtCidade
             // 
             this.txtCidade.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCidade.Location = new System.Drawing.Point(23, 143);
+            this.txtCidade.Location = new System.Drawing.Point(23, 206);
             this.txtCidade.Multiline = true;
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(239, 30);
@@ -1054,46 +675,16 @@ namespace LojaDeFerramentas
             // txtRua
             // 
             this.txtRua.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRua.Location = new System.Drawing.Point(23, 58);
+            this.txtRua.Location = new System.Drawing.Point(23, 121);
             this.txtRua.Multiline = true;
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(239, 30);
             this.txtRua.TabIndex = 63;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.SpringGreen;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::LojaDeFerramentas.Properties.Resources.icons8_salvar_32;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(25, 318);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 48);
-            this.button2.TabIndex = 51;
-            this.button2.Text = "Salvar";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::LojaDeFerramentas.Properties.Resources.icons8_ponta_do_lápis_32;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(189, 318);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 48);
-            this.button3.TabIndex = 52;
-            this.button3.Text = "Editar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Visible = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // txtNum
             // 
             this.txtNum.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum.Location = new System.Drawing.Point(25, 232);
+            this.txtNum.Location = new System.Drawing.Point(25, 295);
             this.txtNum.Multiline = true;
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(237, 30);
@@ -1104,7 +695,7 @@ namespace LojaDeFerramentas
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(20, 38);
+            this.label11.Location = new System.Drawing.Point(20, 101);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(37, 17);
             this.label11.TabIndex = 61;
@@ -1114,7 +705,7 @@ namespace LojaDeFerramentas
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(329, 38);
+            this.label10.Location = new System.Drawing.Point(329, 101);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(55, 17);
             this.label10.TabIndex = 62;
@@ -1124,7 +715,7 @@ namespace LojaDeFerramentas
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(329, 123);
+            this.label5.Location = new System.Drawing.Point(329, 186);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 17);
             this.label5.TabIndex = 67;
@@ -1134,7 +725,7 @@ namespace LojaDeFerramentas
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(22, 210);
+            this.label8.Location = new System.Drawing.Point(22, 273);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(66, 17);
             this.label8.TabIndex = 66;
@@ -1144,7 +735,7 @@ namespace LojaDeFerramentas
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(22, 123);
+            this.label9.Location = new System.Drawing.Point(22, 186);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(59, 17);
             this.label9.TabIndex = 65;
@@ -1153,6 +744,7 @@ namespace LojaDeFerramentas
             // pagConta
             // 
             this.pagConta.BackColor = System.Drawing.Color.Ivory;
+            this.pagConta.Controls.Add(this.label22);
             this.pagConta.Controls.Add(this.btnDelete);
             this.pagConta.Controls.Add(this.txtCpf);
             this.pagConta.Controls.Add(this.txtEmail);
@@ -1172,22 +764,6 @@ namespace LojaDeFerramentas
             this.pagConta.Size = new System.Drawing.Size(1085, 711);
             this.pagConta.TabIndex = 3;
             this.pagConta.Text = "conta";
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnDelete.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDelete.Image = global::LojaDeFerramentas.Properties.Resources.icons8_lixeira_32;
-            this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(404, 329);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(183, 48);
-            this.btnDelete.TabIndex = 50;
-            this.btnDelete.Text = "Deletar conta";
-            this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtCpf
             // 
@@ -1301,39 +877,13 @@ namespace LojaDeFerramentas
             this.label3.TabIndex = 40;
             this.label3.Text = "Nome";
             // 
-            // btnSalvar
-            // 
-            this.btnSalvar.BackColor = System.Drawing.Color.SpringGreen;
-            this.btnSalvar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.ForeColor = System.Drawing.Color.Cornsilk;
-            this.btnSalvar.Image = global::LojaDeFerramentas.Properties.Resources.icons8_salvar_32;
-            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvar.Location = new System.Drawing.Point(235, 329);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(119, 48);
-            this.btnSalvar.TabIndex = 0;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSalvar.UseVisualStyleBackColor = false;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Image = global::LojaDeFerramentas.Properties.Resources.icons8_ponta_do_lápis_32;
-            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(56, 329);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(107, 48);
-            this.btnEditar.TabIndex = 0;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
             // pagCarrinho
             // 
-            this.pagCarrinho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.pagCarrinho.BackColor = System.Drawing.Color.White;
+            this.pagCarrinho.Controls.Add(this.label30);
+            this.pagCarrinho.Controls.Add(this.textBox1);
+            this.pagCarrinho.Controls.Add(this.button4);
+            this.pagCarrinho.Controls.Add(this.label29);
             this.pagCarrinho.Controls.Add(this.dataGridView1);
             this.pagCarrinho.Location = new System.Drawing.Point(4, 22);
             this.pagCarrinho.Name = "pagCarrinho";
@@ -1344,10 +894,12 @@ namespace LojaDeFerramentas
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 72);
+            this.dataGridView1.Location = new System.Drawing.Point(67, 101);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(837, 166);
+            this.dataGridView1.Size = new System.Drawing.Size(935, 166);
             this.dataGridView1.TabIndex = 8;
             // 
             // pagProdutostest
@@ -1387,14 +939,528 @@ namespace LojaDeFerramentas
             this.abas.Size = new System.Drawing.Size(1093, 737);
             this.abas.TabIndex = 7;
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(33, 6);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(188, 33);
+            this.label22.TabIndex = 51;
+            this.label22.Text = "Meus Dados";
+            // 
+            // btnLateral
+            // 
+            this.btnLateral.Image = global::LojaDeFerramentas.Properties.Resources.icons8_cardápio_32;
+            this.btnLateral.Location = new System.Drawing.Point(6, 9);
+            this.btnLateral.Name = "btnLateral";
+            this.btnLateral.Size = new System.Drawing.Size(32, 32);
+            this.btnLateral.TabIndex = 6;
+            this.btnLateral.TabStop = false;
+            // 
+            // btncarrinho9
+            // 
+            this.btncarrinho9.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho9.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho9.FlatAppearance.BorderSize = 0;
+            this.btncarrinho9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho9.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho9.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho9.Name = "btncarrinho9";
+            this.btncarrinho9.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho9.TabIndex = 9;
+            this.btncarrinho9.UseVisualStyleBackColor = false;
+            this.btncarrinho9.Click += new System.EventHandler(this.btncarrinho9_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_9;
+            this.pictureBox9.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
+            // btncarrinho6
+            // 
+            this.btncarrinho6.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho6.FlatAppearance.BorderSize = 0;
+            this.btncarrinho6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho6.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho6.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho6.Name = "btncarrinho6";
+            this.btncarrinho6.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho6.TabIndex = 9;
+            this.btncarrinho6.UseVisualStyleBackColor = false;
+            this.btncarrinho6.Click += new System.EventHandler(this.btncarrinho6_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_8;
+            this.pictureBox8.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
+            // btncarrinho3
+            // 
+            this.btncarrinho3.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho3.FlatAppearance.BorderSize = 0;
+            this.btncarrinho3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho3.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho3.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho3.Name = "btncarrinho3";
+            this.btncarrinho3.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho3.TabIndex = 9;
+            this.btncarrinho3.UseVisualStyleBackColor = false;
+            this.btncarrinho3.Click += new System.EventHandler(this.btncarrinho3_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_7;
+            this.pictureBox7.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // btncarrinho8
+            // 
+            this.btncarrinho8.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho8.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho8.FlatAppearance.BorderSize = 0;
+            this.btncarrinho8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho8.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho8.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho8.Name = "btncarrinho8";
+            this.btncarrinho8.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho8.TabIndex = 9;
+            this.btncarrinho8.UseVisualStyleBackColor = false;
+            this.btncarrinho8.Click += new System.EventHandler(this.btncarrinho8_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_6;
+            this.pictureBox6.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btncarrinho7
+            // 
+            this.btncarrinho7.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho7.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho7.FlatAppearance.BorderSize = 0;
+            this.btncarrinho7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho7.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho7.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho7.Name = "btncarrinho7";
+            this.btncarrinho7.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho7.TabIndex = 9;
+            this.btncarrinho7.UseVisualStyleBackColor = false;
+            this.btncarrinho7.Click += new System.EventHandler(this.btncarrinho7_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_5;
+            this.pictureBox5.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // btncarrinho5
+            // 
+            this.btncarrinho5.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho5.FlatAppearance.BorderSize = 0;
+            this.btncarrinho5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho5.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho5.Location = new System.Drawing.Point(272, 95);
+            this.btncarrinho5.Name = "btncarrinho5";
+            this.btncarrinho5.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho5.TabIndex = 9;
+            this.btncarrinho5.UseVisualStyleBackColor = false;
+            this.btncarrinho5.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_4;
+            this.pictureBox4.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // btncarrinho2
+            // 
+            this.btncarrinho2.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho2.FlatAppearance.BorderSize = 0;
+            this.btncarrinho2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho2.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho2.Location = new System.Drawing.Point(273, 95);
+            this.btncarrinho2.Name = "btncarrinho2";
+            this.btncarrinho2.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho2.TabIndex = 9;
+            this.btncarrinho2.UseVisualStyleBackColor = false;
+            this.btncarrinho2.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_3;
+            this.pictureBox3.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btncarrinho4
+            // 
+            this.btncarrinho4.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho4.FlatAppearance.BorderSize = 0;
+            this.btncarrinho4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho4.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho4.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho4.Name = "btncarrinho4";
+            this.btncarrinho4.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho4.TabIndex = 9;
+            this.btncarrinho4.UseVisualStyleBackColor = false;
+            this.btncarrinho4.Click += new System.EventHandler(this.btncarrinho4_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_2;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 119);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btncarrinho1
+            // 
+            this.btncarrinho1.BackColor = System.Drawing.Color.Transparent;
+            this.btncarrinho1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncarrinho1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncarrinho1.FlatAppearance.BorderSize = 0;
+            this.btncarrinho1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncarrinho1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncarrinho1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncarrinho1.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btncarrinho1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncarrinho1.Location = new System.Drawing.Point(267, 95);
+            this.btncarrinho1.Name = "btncarrinho1";
+            this.btncarrinho1.Size = new System.Drawing.Size(51, 50);
+            this.btncarrinho1.TabIndex = 9;
+            this.btncarrinho1.Text = "42";
+            this.btncarrinho1.UseVisualStyleBackColor = false;
+            this.btncarrinho1.Click += new System.EventHandler(this.btncarrinho1_Click);
+            // 
+            // imgC
+            // 
+            this.imgC.Image = global::LojaDeFerramentas.Properties.Resources.imgCard_1;
+            this.imgC.Location = new System.Drawing.Point(-1, 18);
+            this.imgC.Name = "imgC";
+            this.imgC.Size = new System.Drawing.Size(140, 119);
+            this.imgC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgC.TabIndex = 0;
+            this.imgC.TabStop = false;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnDelete.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnDelete.Image = global::LojaDeFerramentas.Properties.Resources.icons8_lixeira_32;
+            this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDelete.Location = new System.Drawing.Point(404, 329);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(183, 48);
+            this.btnDelete.TabIndex = 50;
+            this.btnDelete.Text = "Deletar conta";
+            this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnSalvar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.ForeColor = System.Drawing.Color.Cornsilk;
+            this.btnSalvar.Image = global::LojaDeFerramentas.Properties.Resources.icons8_salvar_32;
+            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvar.Location = new System.Drawing.Point(235, 329);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(119, 48);
+            this.btnSalvar.TabIndex = 0;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.Image = global::LojaDeFerramentas.Properties.Resources.icons8_ponta_do_lápis_32;
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditar.Location = new System.Drawing.Point(56, 329);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(107, 48);
+            this.btnEditar.TabIndex = 0;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Image = global::LojaDeFerramentas.Properties.Resources.icons8_lixeira_32;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(354, 381);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(217, 48);
+            this.button1.TabIndex = 53;
+            this.button1.Text = "Deletar Endereço";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.SpringGreen;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::LojaDeFerramentas.Properties.Resources.icons8_salvar_32;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(25, 381);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 48);
+            this.button2.TabIndex = 51;
+            this.button2.Text = "Salvar";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = global::LojaDeFerramentas.Properties.Resources.icons8_ponta_do_lápis_32;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(189, 381);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(105, 48);
+            this.button3.TabIndex = 52;
+            this.button3.Text = "Editar";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnEnd
+            // 
+            this.btnEnd.BackColor = System.Drawing.Color.Transparent;
+            this.btnEnd.FlatAppearance.BorderSize = 0;
+            this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnEnd.Image = global::LojaDeFerramentas.Properties.Resources.icons8_localização_32;
+            this.btnEnd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEnd.Location = new System.Drawing.Point(2, 319);
+            this.btnEnd.Name = "btnEnd";
+            this.btnEnd.Size = new System.Drawing.Size(259, 43);
+            this.btnEnd.TabIndex = 11;
+            this.btnEnd.Text = "Endereço";
+            this.btnEnd.UseVisualStyleBackColor = false;
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::LojaDeFerramentas.Properties.Resources.Component_1;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 7);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(124, 84);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnCarrinho
+            // 
+            this.btnCarrinho.BackColor = System.Drawing.Color.Transparent;
+            this.btnCarrinho.FlatAppearance.BorderSize = 0;
+            this.btnCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCarrinho.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCarrinho.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCarrinho.Image = global::LojaDeFerramentas.Properties.Resources.icons8_carrinho_32;
+            this.btnCarrinho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCarrinho.Location = new System.Drawing.Point(3, 250);
+            this.btnCarrinho.Name = "btnCarrinho";
+            this.btnCarrinho.Size = new System.Drawing.Size(256, 52);
+            this.btnCarrinho.TabIndex = 7;
+            this.btnCarrinho.Text = "Carrinho";
+            this.btnCarrinho.UseVisualStyleBackColor = false;
+            this.btnCarrinho.Click += new System.EventHandler(this.btnCarrinho_Click);
+            // 
+            // btnConta
+            // 
+            this.btnConta.BackColor = System.Drawing.Color.Transparent;
+            this.btnConta.FlatAppearance.BorderSize = 0;
+            this.btnConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConta.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnConta.Image = global::LojaDeFerramentas.Properties.Resources.icons8_usuário_32;
+            this.btnConta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConta.Location = new System.Drawing.Point(3, 377);
+            this.btnConta.Name = "btnConta";
+            this.btnConta.Size = new System.Drawing.Size(259, 43);
+            this.btnConta.TabIndex = 5;
+            this.btnConta.Text = "Conta";
+            this.btnConta.UseVisualStyleBackColor = false;
+            this.btnConta.Click += new System.EventHandler(this.btnConta_Click);
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLogout.Image = global::LojaDeFerramentas.Properties.Resources.icons8_sair_32;
+            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.Location = new System.Drawing.Point(3, 448);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(256, 43);
+            this.btnLogout.TabIndex = 3;
+            this.btnLogout.Text = "Log out";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnProdutos
+            // 
+            this.btnProdutos.BackColor = System.Drawing.Color.Transparent;
+            this.btnProdutos.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnProdutos.FlatAppearance.BorderSize = 0;
+            this.btnProdutos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProdutos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProdutos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnProdutos.Image = global::LojaDeFerramentas.Properties.Resources.icons8_manutenção_321;
+            this.btnProdutos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProdutos.Location = new System.Drawing.Point(3, 174);
+            this.btnProdutos.Name = "btnProdutos";
+            this.btnProdutos.Size = new System.Drawing.Size(256, 50);
+            this.btnProdutos.TabIndex = 8;
+            this.btnProdutos.Text = "Produtos";
+            this.btnProdutos.UseVisualStyleBackColor = false;
+            this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(19, 39);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(215, 33);
+            this.label28.TabIndex = 71;
+            this.label28.Text = "Meu Endereço";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(61, 38);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(203, 33);
+            this.label29.TabIndex = 52;
+            this.label29.Text = "Meu Carrinho";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(67, 337);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(237, 30);
+            this.textBox1.TabIndex = 71;
+            this.textBox1.UseSystemPasswordChar = true;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.SpringGreen;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = global::LojaDeFerramentas.Properties.Resources.icons8_lixeira_32;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(67, 388);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(116, 48);
+            this.button4.TabIndex = 70;
+            this.button4.Text = "deletar";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(61, 284);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(310, 33);
+            this.label30.TabIndex = 72;
+            this.label30.Text = "Insira o id do produto";
+            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 763);
             this.Controls.Add(this.abas);
-            this.Controls.Add(this.docker);
             this.Controls.Add(this.barraLateral);
+            this.Controls.Add(this.docker);
             this.DoubleBuffered = true;
             this.Name = "FormHome";
             this.Text = "FormHome";
@@ -1402,55 +1468,55 @@ namespace LojaDeFerramentas
             this.Shown += new System.EventHandler(this.FormHome_Shown);
             this.barraLateral.ResumeLayout(false);
             this.barraLateral.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.docker.ResumeLayout(false);
-            this.docker.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnLateral)).EndInit();
             this.pagProdutos.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgC)).EndInit();
             this.pagEnd.ResumeLayout(false);
             this.pagEnd.PerformLayout();
             this.pagConta.ResumeLayout(false);
             this.pagConta.PerformLayout();
             this.pagCarrinho.ResumeLayout(false);
+            this.pagCarrinho.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.pagProdutostest.ResumeLayout(false);
             this.abas.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnLateral)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1466,7 +1532,6 @@ namespace LojaDeFerramentas
         private System.Windows.Forms.Button btnProdutos;
         private System.Windows.Forms.PictureBox btnLateral;
         private System.Windows.Forms.Panel docker;
-        private System.Windows.Forms.TextBox txtPesquisa;
         private System.Windows.Forms.Button btnEnd;
         private System.Windows.Forms.TabPage pagProdutos;
         private System.Windows.Forms.Panel panel17;
@@ -1556,5 +1621,11 @@ namespace LojaDeFerramentas
         private System.Windows.Forms.TabPage pagProdutostest;
         private System.Windows.Forms.FlowLayoutPanel pnl;
         private System.Windows.Forms.TabControl abas;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
     }
 }

@@ -113,6 +113,16 @@ namespace LojaDeFerramentas.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_localização_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-localização-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_manutenção_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-manutenção-32", resourceCulture);
